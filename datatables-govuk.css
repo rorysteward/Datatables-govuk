@@ -173,6 +173,10 @@ table.dataTable thead th {
     border: 0.1px solid;
 }
 
+table.dataTable tbody tr.odd td {
+    background: #F5F5F5;
+}
+
 table.dataTable tbody td {
     font-family: Inter, arial, sans-serif;
     -webkit-font-smoothing: antialiased;
