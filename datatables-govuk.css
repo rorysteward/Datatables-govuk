@@ -103,11 +103,16 @@ div.dataTables_filter input::-webkit-inner-spin-button, input::-webkit-outer-spi
 
 
 div.dataTables_info {
-    padding: 9px 6px 6px 6px;
+    font-family: Inter, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #0b0c0c;
     float: left;
-    font-family: Inter;
-    font-style: normal;
-    src: url(/assets/fonts/Inter-Regular.ttf) format("ttf"), url(/assets/fonts/Inter-Regular.ttf) format("ttf");
+    margin-bottom: 5px
 }
 
 
